@@ -1,4 +1,5 @@
 import Data_processing as dp
+import Data_visualization as dv
 
 
 def main():
@@ -14,8 +15,8 @@ def main():
     dp.save_to_csv(df_short, 'EU_countries.csv')
 
     # Visualize the data
-    # dv.plot_population(df_short)
-    # dv.plot_area(df_short)
+    dv.plot_population_country(df_short)
+    dv.plot_area_country(df_short)
 
 
 if __name__ == "__main__":

@@ -40,12 +40,12 @@ def normalize_dataframe(df):
     # Rename columns
     df = df.rename(columns={'English short, formal names, and ISO[16][17][18][19]': 'Country',
                             'Capital[19][20][21]': 'Capital', 'Population 2021[22][23]': 'Population',
-                            'Area[a][24]': 'Area', 'Currency[19]': 'Currency'})
+                            'Area[a][24]': 'Area [km2]', 'Currency[19]': 'Currency'})
 
     # Regex patterns
     country_pattern = r'\b[A-Z][a-z]+(?:\s[A-Z][a-z]+)*(?<!ISL)'
     capital_pattern = r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?=[^a-z]|$)'
-    area_pattern = r'\d{1,3}(?:,\d{3})*(?:\.\d+)?\s+km2'
+    area_pattern = r'\d{1,3}(?:,\d{3})*(?:\.\d+)?\s'
 
     # Replace country column data with just its name
     df['Country'] = df['Country'].apply(
@@ -60,8 +60,9 @@ def normalize_dataframe(df):
         lambda x: re.search(capital_pattern, x).group(0) if re.search(capital_pattern, x) else None)
 
     # Replace Area column data so it contains just km2 values
-    df['Area'] = df['Area'].apply(
+    df['Area [km2]'] = df['Area [km2]'].apply(
         lambda x: re.search(area_pattern, x).group(0) if re.search(area_pattern, x) else None)
+    df['Area [km2]'] = df['Area [km2]'].str.replace(r'[^0-9.]', '').astype(float)
 
     return df
 
