@@ -1,51 +1,51 @@
-,Country,Capital,Population,Area,Currency
-0,Albania,Tirana,2854710,"28,748 km2",Albanian lek
-1,Andorra,Andorra,79034,468 km2,Euro
-2,Armenia,Yerevan,2790974,"29,743 km2",Armenian dram
-3,Austria,Vienna,8922082,"83,871 km2",Euro
-4,Azerbaijan,Baku,10312992,"86,600 km2",Azerbaijani manat
-5,Belarus,Minsk,9578167,"207,600 km2",Belarusian rouble
-6,Belgium,Brussels,11611419,"30,528 km2",Euro
-7,Bosnia,Sarajevo,3270943,"51,197 km2",Bosnia and Herzegovina convertible mark
-8,Bulgaria,Sofia,6885868,"110,879 km2",Bulgarian lev
-9,Croatia,Zagreb,4060135,"56,594 km2",Euro
-10,Cyprus,Nicosia,1244188,"9,251 km2",Euro
-11,Czechia,Prague,10510751,"78,867 km2",Czech koruna
-12,Denmark,Copenhagen,5854240,"42,933 km2",Danish krone
-13,Estonia,Tallinn,1328701,"45,228 km2",Euro
-14,Finland,Helsinki,5535992,"338,145 km2",Euro
-15,France,Paris,64531444,"643,427 km2",Euro
-16,Georgia,Tbilisi,3757980,"69,700 km2",Georgian lari
-17,Germany,Berlin,83408554,"357,022 km2",Euro
-18,Greece,Athens,10445365,"131,957 km2",Euro
-19,Hungary,Budapest,9709786,"93,028 km2",Hungarian forint
-20,Iceland,Reykjavik,370335,"103,000 km2",Icelandic króna
-21,Ireland,Dublin,4986526,"70,273 km2",Euro
-22,Italy,Rome,59240329,"301,340 km2",Euro
-23,Kazakhstan,Astana,19196465,"2,724,900 km2",Kazakhstani tenge
-24,Latvia,Riga,1873919,"64,589 km2",Euro
-25,Liechtenstein,Vaduz,39039,160 km2,Liechtenstein franc
-26,Lithuania,Vilnius,2786651,"65,300 km2",Euro
-27,Luxembourg,Luxembourg,639321,"2,586 km2",Euro
-28,Malta,Valletta,526748,316 km2,Euro
-29,Moldova,Chisinau,3061506,"33,851 km2",Moldovan leu
-30,Monaco,Monaco,36686,2 km2,Euro
-31,Montenegro,Podgorica,627859,"13,812 km2",Euro
-32,Netherlands,Amsterdam,17501696,"41,543 km2",Euro
-33,North Macedonia,Skopje,2103330,"25,713 km2",Macedonian denar
-34,Norway,Oslo,5403021,"323,802 km2",Norwegian krone
-35,Poland,Warsaw,38307726,"312,685 km2",Polish złoty
-36,Portugal,Lisbon,10290103,"92,090 km2",Euro
-37,Romania,Bucharest,19328560,"238,391 km2",Romanian leu
-38,Russia,Moscow,145102755,"17,098,242 km2",Russian rouble
-39,San Marino,San Marino,33745,61 km2,Euro
-40,Serbia,Belgrade,7296769,"88,361 km2",Serbian dinar
-41,Slovakia,Bratislava,5447622,"49,035 km2",Euro
-42,Slovenia,Ljubljana,2119410,"20,273 km2",Euro
-43,Spain,Madrid,47486935,"505,370 km2",Euro
-44,Sweden,Stockholm,10467097,"450,295 km2",Swedish krona
-45,Switzerland,Bern,8691406,"41,277 km2",Swiss franc
-46,Turkey,Ankara,84775404,"783,562 km2",Turkish lira
-47,Ukraine,Kyiv,43531422,"603,550 km2",Ukrainian hryvnia
-48,United Kingdom,London,67281039,"243,610 km2",Sterling
-49,Vatican City,Vatican City,511,0.44 km2,Euro
+,Country,Capital,Population,Area [km2],Currency
+0,Albania,Tirana,2854710,28748.0,Albanian lek
+1,Andorra,Andorra,79034,468.0,Euro
+2,Armenia,Yerevan,2790974,29743.0,Armenian dram
+3,Austria,Vienna,8922082,83871.0,Euro
+4,Azerbaijan,Baku,10312992,86600.0,Azerbaijani manat
+5,Belarus,Minsk,9578167,207600.0,Belarusian rouble
+6,Belgium,Brussels,11611419,30528.0,Euro
+7,Bosnia,Sarajevo,3270943,51197.0,Bosnia and Herzegovina convertible mark
+8,Bulgaria,Sofia,6885868,110879.0,Bulgarian lev
+9,Croatia,Zagreb,4060135,56594.0,Euro
+10,Cyprus,Nicosia,1244188,9251.0,Euro
+11,Czechia,Prague,10510751,78867.0,Czech koruna
+12,Denmark,Copenhagen,5854240,42933.0,Danish krone
+13,Estonia,Tallinn,1328701,45228.0,Euro
+14,Finland,Helsinki,5535992,338145.0,Euro
+15,France,Paris,64531444,643427.0,Euro
+16,Georgia,Tbilisi,3757980,69700.0,Georgian lari
+17,Germany,Berlin,83408554,357022.0,Euro
+18,Greece,Athens,10445365,131957.0,Euro
+19,Hungary,Budapest,9709786,93028.0,Hungarian forint
+20,Iceland,Reykjavik,370335,103000.0,Icelandic króna
+21,Ireland,Dublin,4986526,70273.0,Euro
+22,Italy,Rome,59240329,301340.0,Euro
+23,Kazakhstan,Astana,19196465,2724900.0,Kazakhstani tenge
+24,Latvia,Riga,1873919,64589.0,Euro
+25,Liechtenstein,Vaduz,39039,160.0,Liechtenstein franc
+26,Lithuania,Vilnius,2786651,65300.0,Euro
+27,Luxembourg,Luxembourg,639321,2586.0,Euro
+28,Malta,Valletta,526748,316.0,Euro
+29,Moldova,Chisinau,3061506,33851.0,Moldovan leu
+30,Monaco,Monaco,36686,2.0,Euro
+31,Montenegro,Podgorica,627859,13812.0,Euro
+32,Netherlands,Amsterdam,17501696,41543.0,Euro
+33,North Macedonia,Skopje,2103330,25713.0,Macedonian denar
+34,Norway,Oslo,5403021,323802.0,Norwegian krone
+35,Poland,Warsaw,38307726,312685.0,Polish złoty
+36,Portugal,Lisbon,10290103,92090.0,Euro
+37,Romania,Bucharest,19328560,238391.0,Romanian leu
+38,Russia,Moscow,145102755,17098242.0,Russian rouble
+39,San Marino,San Marino,33745,61.0,Euro
+40,Serbia,Belgrade,7296769,88361.0,Serbian dinar
+41,Slovakia,Bratislava,5447622,49035.0,Euro
+42,Slovenia,Ljubljana,2119410,20273.0,Euro
+43,Spain,Madrid,47486935,505370.0,Euro
+44,Sweden,Stockholm,10467097,450295.0,Swedish krona
+45,Switzerland,Bern,8691406,41277.0,Swiss franc
+46,Turkey,Ankara,84775404,783562.0,Turkish lira
+47,Ukraine,Kyiv,43531422,603550.0,Ukrainian hryvnia
+48,United Kingdom,London,67281039,243610.0,Sterling
+49,Vatican City,Vatican City,511,0.44,Euro
